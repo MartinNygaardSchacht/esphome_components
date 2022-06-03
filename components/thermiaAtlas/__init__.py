@@ -3,7 +3,7 @@ import esphome.config_validation as cv
 from esphome.const import CONF_ID
 
 atlas_ns = cg.esphome_ns.namespace('atlas')
-Atlas = atlas_ns.class_('Atlas', cg.Component)
+atlas = atlas_ns.class_('Atlas', cg.Component)
 
 CONF_ATLAS_ID = 'atlas_id'
 
